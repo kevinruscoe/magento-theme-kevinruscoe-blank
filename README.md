@@ -4,7 +4,7 @@ First, clone this repo at `app/design/frontend`.
 
 ```bash
 cd app/design/frontend
-git clone https://github.com/kevinruscoe/magento-theme-kevinruscoe-blank/
+git clone https://github.com/kevinruscoe/magento-theme-kevinruscoe-blank/ KevinRuscoe
 ```
 
 Because this theme is a child of snowdogs blank sass theme, we need to install that.
