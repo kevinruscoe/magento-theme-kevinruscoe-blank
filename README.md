@@ -22,7 +22,7 @@ yarn install
 yarn setup
 ```
 
-[Node issues? Head over to https://github.com/nvm-sh/nvm and download it. Install with `nvm install --lts`.]
+[Node issues? Head over to https://github.com/nvm-sh/nvm and download it. Install with `nvm install --lts`, then require yarn globally.]
 
 Snowdogs frontend tools requires a `themes.json` file, so make this at `dev/tools/frontools/config/themes.json`.
 
