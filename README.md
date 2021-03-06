@@ -22,7 +22,9 @@ yarn install
 yarn setup
 ```
 
-[Node issues? Head over to https://github.com/nvm-sh/nvm and download it. Install with `nvm install --lts`, then require yarn globally.]
+## Node issues?
+
+Head over to https://github.com/nvm-sh/nvm#install--update-script and download it. Then install a lts version of node with `nvm install --lts`. Finally, require yarn globally with `npm -g install yarn`.
 
 Snowdogs frontend tools requires a `themes.json` file, so make this at `dev/tools/frontools/config/themes.json`.
 
@@ -43,6 +45,10 @@ Snowdogs frontend tools requires a `themes.json` file, so make this at `dev/tool
 }
 ```
 
+We're ready to build our template, so `cd tools` and run `yarn run styles`.
+
 Finally, set your theme to this theme and clear cache.
 
 # How it all works?
+
+Basically, the files are copied to `var/view_preprocessed`, then sass is executed, so bare this in mind when trying to include parent theme sass files.
